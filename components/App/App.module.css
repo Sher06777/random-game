@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.game {
+    width: 24%;
+    margin: 100px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+input {
+    padding: 5px 10px;
+    border: 1px solid aquamarine;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid aquamarine;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.restart{
+    padding: 5px 10px;
+    border: 1.6px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+p{
+    width: 100%;
+}
